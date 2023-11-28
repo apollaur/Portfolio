@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #dcdcdd;
+}
+
+.lead{
+    text-align: justify;
+    color: #000000;
+    text-indent: 50px;
+    
+}
+
+
+.float-md-end{
+    padding-left:25px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+
+}
+
+footer {
+    background-color: #586f6b;
+    
+}
+
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: #dfdfdf;
+
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
